@@ -1,0 +1,9 @@
+{
+	"name": "node-balcon",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {},
+	"author": "octanuary#6553",
+	"license": "MIT"
+}
