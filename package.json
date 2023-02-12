@@ -1,14 +1,29 @@
 {
-	"name": "node-balcon",
-	"version": "2.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
+  "name": "balcon",
+  "version": "2.0.0",
+  "description": "i don't feel like writing this",
+  "main": "index.js",
+  "scripts": {
     "test": "node test.js"
   },
-	"author": "rivver657",
-	"license": "MIT",
-	"dependencies": {
-		"iso-639-1": "^2.1.15"
-	}
+  "author": "rivver657",
+  "license": "MIT",
+  "dependencies": {
+    "iso-639-1": "^2.1.15"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rivver657/node-balcon.git"
+  },
+  "keywords": [
+    "balabolka",
+    "balcon",
+    "tts",
+    "voices"
+  ],
+  "bugs": {
+    "url": "https://github.com/Rivver657/node-balcon/issues"
+  },
+  "homepage": "https://github.com/Rivver657/node-balcon#readme"
 }
