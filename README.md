@@ -42,3 +42,26 @@ bala.generate().then((filepath) => {
 	console.log(filepath); // C:\...
 }).catch((err) => console.log(err));
 ```
+
+### Voice listing
+```js
+const { listVoices } = require("node-balcon");
+
+listVoices().then((voices) => {
+	console.log(voices);
+	/*
+	'SAPI 5:': [
+		{
+			name: 'Cepstral Whispery',
+			description: 'Cepstral Whispery',
+			vendor: 'Cepstral',
+			age: '30',
+			gender: 'U',
+			lang: 'en',
+			channels: 1,
+			sampleRate: 16000,
+			bitDepth: 16
+		},
+	*/
+});
+```
